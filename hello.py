@@ -1,6 +1,6 @@
-"""�֐� `hello()` ��񋟂���"""
+"""関数 `hello()` を提供する"""
 
 def hello(name: str = "world") -> None:
-    """`Hello, xxx.` �̃��b�Z�[�W���o�͂���"""
+    """`Hello, xxx.` のメッセージを出力する"""
     print(f"Hello, {name}.")
     
